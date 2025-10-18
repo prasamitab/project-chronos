@@ -34,16 +34,16 @@ Project Chronos is an "AI Archeologist" application that takes fragmented or obs
 4.  **Set Up API Keys:**
     Create a file named `.env` in the root of the project folder and add your API keys in the following format:
     ```
-    GEMINI_API_KEY="AIzaSyBISXh-4QFcNuHj99eeMS7Rz6KQ5AuUNfs"
-    GOOGLE_API_KEY="AIzaSyCvTH5qfpmBAnA8FSsIkQL3N2NVRgQOtdU"
-    SEARCH_ENGINE_ID="56f1de97ea0d041a4"
+    GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
+    GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
+    SEARCH_ENGINE_ID="YOUR_SEARCH_ENGINE_ID_HERE"
     ```
 
 ## Usage Guide
 
 Run the application from your terminal by providing the fragmented text in quotes as a command-line argument.
 
-**Example Command:**
+**Example Commands:**
 ```bash
 python main.py "smh at the top 8 drama. ppl need to chill. g2g, ttyl."
 python main.py "w00t! that n00b got pwned on Counter-Strike."
